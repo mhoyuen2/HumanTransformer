@@ -170,7 +170,7 @@ namespace HumanTransformer
 
             this.sceneObject = new string[2, 4] { { "\\Images\\BackgroundLion.png", "\\Images\\GestureLion.png", "Images\\Lion.png", "\\Images\\Lion2.png" },
                          { "\\Images\\BackgroundAngryBird.png", "\\Images\\GestureAngryBird.png", "Images\\AngryBird.png", "\\Images\\AngryBird.gif" } };
-            this.stickerObject = new string[4] { "\\Sticker1.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker3.gif" };
+            this.stickerObject = new string[4] { "\\Images\\Sticker1.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker3.gif" };
 
             this._backgroundRemovalTool = new BackgroundRemovalTool(this.kinectSensor.CoordinateMapper);
 
@@ -253,12 +253,23 @@ namespace HumanTransformer
             using (var colorFrame = reference.ColorFrameReference.AcquireFrame())
             using (var depthFrame = reference.DepthFrameReference.AcquireFrame())
             using (var bodyIndexFrame = reference.BodyIndexFrameReference.AcquireFrame())
+            using (var bodyFrame = reference.BodyFrameReference.AcquireFrame())
             {
                 if (colorFrame != null && depthFrame != null && bodyIndexFrame != null)
                 {
                     // 3) Update the image source.
                     Camera.Source = _backgroundRemovalTool.GreenScreen(colorFrame, depthFrame, bodyIndexFrame);
                     CaptureOriginalColorFrame(colorFrame);
+                }
+                if (bodyFrame != null)
+                {
+                    Body body = bodyFrame.Bodies().Closest();
+
+                    if (body != null)
+                    {
+                        _gestureController.Update(body);
+                    }
+
                 }
             }
         }
@@ -550,7 +561,7 @@ namespace HumanTransformer
         private void ResetButton_Click(object sender, RoutedEventArgs e)
         {
             ImageBehavior.SetAnimatedSource(MorphGif, null);
-            CapturedBackground.Source =  null;
+            CapturedBackground.Source = null;
             TransformObject.Visibility = Visibility.Collapsed;
             ImageBehavior.SetAnimatedSource(Animation, null);
             Camera.Visibility = Visibility.Visible;
