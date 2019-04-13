@@ -4,17 +4,23 @@
 
 This project contains of 2 folder: Executable and Source Code.
 
+Executable contains to runnable application and Source Code contains of coding in WPF and MATLAB.
+
 ### Prerequisites
 
-Make sure your computer has Kinect connect with the Kinect SDK 2.0.
+For running the executable, make sure your computer has Kinect connect with the Kinect SDK 2.0 installed.
 
 Download Link: https://www.microsoft.com/en-us/download/details.aspx?id=44561
 
-MATLAB Runtime 9.6 is also needed.
+You may need to run through the Kinect Configuration Verifier to check everything is working with the Kinect.
+
+Also, MATLAB Runtime 9.6 is also needed.
 
 Download Link: https://www.mathworks.com/products/compiler/matlab-runtime.html
 
-MATLAB R2019a and Visual Studio 2015 are used in the developement of the applicaiton.
+For using the source code, Visual Studio 2015 and MATLAB R2019a are suggested to use in the developement of the applicaiton.
+
+.NET Framework used during the development for 4.7.2 version.
 
 ### Installing
 
