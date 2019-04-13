@@ -74,3 +74,31 @@ E:\Users\sunce\Documents\GitHub\HumanTransformer\Source Code\obj\x64\Debug\Human
 E:\Users\sunce\Documents\GitHub\HumanTransformer\Source Code\obj\x64\Debug\HumanTransformer.csproj.GenerateResource.Cache
 E:\Users\sunce\Documents\GitHub\HumanTransformer\Source Code\obj\x64\Debug\HumanTransformer.exe
 E:\Users\sunce\Documents\GitHub\HumanTransformer\Source Code\obj\x64\Debug\HumanTransformer.pdb
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\HumanTransformer.exe.config
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.exe
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.pdb
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\HumanTransformer.exe
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\HumanTransformer.pdb
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\IMFDalgorithm.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\LightBuzz.Vitruvius.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.Wpf.Controls.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\MWArray.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\WpfAnimatedGif.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.Face.dll
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\LightBuzz.Vitruvius.xml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.xml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.Wpf.Controls.xml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\WpfAnimatedGif.xml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\bin\x64\Debug\Microsoft.Kinect.Face.xml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.csprojResolveAssemblyReference.cache
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\MainWindow.baml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\App.baml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\MainWindow.g.cs
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\App.g.cs
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer_MarkupCompile.cache
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer_MarkupCompile.lref
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\KinectRegionStyles.baml
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.g.resources
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.Properties.Resources.resources
+C:\Users\mhoyuen2\Desktop\Human Transfomer\System\Source Code\WPF\obj\x64\Debug\HumanTransformer.csproj.GenerateResource.Cache

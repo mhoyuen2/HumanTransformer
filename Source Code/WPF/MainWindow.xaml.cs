@@ -170,7 +170,7 @@ namespace HumanTransformer
 
             this.sceneObject = new string[2, 4] { { "\\Images\\BackgroundLion.png", "\\Images\\GestureLion.png", "Images\\Lion.png", "\\Images\\Lion2.png" },
                          { "\\Images\\BackgroundAngryBird.png", "\\Images\\GestureAngryBird.png", "Images\\AngryBird.png", "\\Images\\AngryBird.gif" } };
-            this.stickerObject = new string[4] { "\\Images\\Sticker1.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker3.gif" };
+            this.stickerObject = new string[4] { "\\Images\\Sticker1.gif", "\\Images\\Sticker2.gif", "\\Images\\Sticker3.gif", "\\Images\\Sticker4.gif" };
 
             this._backgroundRemovalTool = new BackgroundRemovalTool(this.kinectSensor.CoordinateMapper);
 
