@@ -10,6 +10,12 @@ Make sure your computer has Kinect connect with the Kinect SDK 2.0.
 
 Download Link: https://www.microsoft.com/en-us/download/details.aspx?id=44561
 
+MATLAB Runtime 9.6 is also needed.
+
+Download Link: https://www.mathworks.com/products/compiler/matlab-runtime.html
+
+MATLAB R2019a and Visual Studio 2015 are used in the developement of the applicaiton.
+
 ### Installing
 
 To use the executable file, you can click on Human Transformer on the root folder or go to Executable\HumanTransformer.exe
